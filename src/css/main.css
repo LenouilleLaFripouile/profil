@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+body {
+  font-family: Inter;
+  color: #fff;
+  background-color: black;
+  font-weight: 100;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+header {
+  display: flex;
+  width: 1440px;
+  height: 123px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  h2 {
+    font-weight: 100;
+  }
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+.right {
+  display: flex;
+  gap: 30px;
+}
+
+.content {
+  margin-top: 130px;
+  h3 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 18px;
+  }
+  h1 {
+    font-family: "GT Walsheim Trial";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(
+      90deg,
+      #9845e8 -1.72%,
+      #33d2ff 54.05%,
+      #dd5789 99.78%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+  }
+  h2 {
+    color: #f0f0f0;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    width: 692px;
+  }
+}
+
+footer {
+  display: flex;
+  margin-top: 370px;
+  gap: 20px;
+}
